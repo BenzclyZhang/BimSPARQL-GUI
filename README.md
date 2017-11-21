@@ -11,11 +11,14 @@ To install this application, it requires the project of https://github.com/Benzc
 
 Firstly build the BimSPARQL project, in <yourworkspace>/BimSPARQL run:
 
-* mvn clean install
-
+```
+mvn clean install
+```
 Then build the BimSPARQL-GUI project, in <yourworkspace>/BimSPARQL-GUI run:
 
-* mvn clean install
+```
+mvn clean install
+```
 
 The output war file is in the directory of <yourworkspace>/BimSPARQL-GUI/target/. The war file then can be put into <Tomcat_root>/webapps directory of Tomcat to run. It currently may only support windows version.
 It should have a webpage like this:
@@ -28,7 +31,9 @@ The model upload page in the GUI is currently fake. Other *.ifc model can be put
 
 To run it in a Development Model, in <yourworkspace>/BimSPARQL-GUI run:
 
-* mvn gwt:run
+```
+mvn gwt:run
+```
 
 ## Some limitations:
 
@@ -43,6 +48,8 @@ To run it in a Development Model, in <yourworkspace>/BimSPARQL-GUI run:
 
 This project is licensed under the AGPL License - see the [LICENSE.md](LICENSE.md) file for details
 
-To further develop them in Eclipse, Google Plugin for Eclipse may be needed. 
-See instructions on: http://www.gwtproject.org/usingeclipse.html
+To further develop them in Eclipse, See instructions of Mojo Maven GWT plugin and GWT official Webpage.
+
+Instructions on: https://gwt-maven-plugin.github.io/gwt-maven-plugin/
+http://www.gwtproject.org/usingeclipse.html
 
